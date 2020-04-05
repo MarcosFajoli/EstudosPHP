@@ -1,13 +1,13 @@
 <?php
 
-	function exibirNome($nome) {
+	function exibirNome(string $nome) {
 		echo "Meu nome é $nome";
 	}
 	exibirNome("Marcos Fajoli");
 	echo "<hr>";
 
 
-	function calcularMedia($nome, $n1, $n2, $n3, $n4){
+	function calcularMedia(string $nome, float $n1, float $n2, float $n3, float $n4){
 		$media = ($n1 + $n2 + $n3 + $n4) / 4;
 		if ($media >= 7) {
 			echo "$nome foi aprovado com a média $media. <br>";
