@@ -18,7 +18,7 @@ Neste repositório serão encontrados scripts básicos com o intuito de aprender
 11. Superglobais;
 12. Aplicações Básicas do PHP em Forms;
 13. Validações e Sanitizações em Inputs / Verificação de erros;
-14. Uploads únicos;
+14. Uploads únicos e múltiplos;
 
 **Nota 1:**
 Essa lista não necessariamente segue a ordem dos scripts presentes.

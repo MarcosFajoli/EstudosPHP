@@ -17,12 +17,12 @@
                         $novoNome = uniqid().".$extensao";
 
                         if ( move_uploaded_file($temporario, $pasta.$novoNome) ) {
-                            echo "Upload do arquivo $nome_inicial feito com sucesso para $pasta.$novoNome!<br>";
+                            echo "Upload do arquivo $nome_inicial feito com sucesso para $pasta$novoNome<br><br>";
                         }else {
-                            echo "Erro, não foi possível fazer o upload.<br>";
+                            echo "Erro, não foi possível fazer o upload.<br><br>";
                         }
                     }else {
-                        echo "$extensao não é permitida.<br>";
+                        echo "$extensao não é permitida.<br><br>";
                     }
                     $cont++;
                 }
