@@ -19,9 +19,15 @@ Neste repositório serão encontrados scripts básicos com o intuito de aprender
 12. Aplicações Básicas do PHP em Forms;
 13. Validações e Sanitizações em Inputs / Verificação de erros;
 14. Uploads únicos e múltiplos;
+15. Sessões;
+16. Sistema de Login;
+17. Sistema CRUD para clientes.
 
 **Nota 1:**
 Essa lista não necessariamente segue a ordem dos scripts presentes.
 
 **Nota 2:**
 Esse repositório foi composto com estudos sobre o Git e o GitHub feitos em conjunto com o projeto.
+
+**Nota 3:**
+Somente alguns arquivos estão disponíveis com o banco de dados base.
